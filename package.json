@@ -1,0 +1,25 @@
+{
+  "name": "react-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:scroll": "npm --workspace apps/infinite-scroll run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeshvinash/react-monorepo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yeshvinash/react-monorepo/issues"
+  },
+  "homepage": "https://github.com/yeshvinash/react-monorepo#readme"
+}
